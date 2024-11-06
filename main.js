@@ -4,7 +4,9 @@ const app = Vue.createApp({
             product: 'Shoes',
             productDescription: 'Feetware',
             image: './assets/images/socks_green.jpg',
-            url: '#'
+            url: '#',
+            onSale: true,
+            inventory: 8,
         }
     }
 });
